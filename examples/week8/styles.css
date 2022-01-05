@@ -1,0 +1,34 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+.title
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.header1
+{
+    font-size: 30px;
+}
+
+.header2
+{
+    font-size: 20px;
+}
+
+.body
+{
+    text-align: justify;
+    font-size: 100%;
+}
+
+.footer
+{
+    font-size: small;
+    text-align: center;
+}

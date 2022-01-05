@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: greater time for the worst possible case in comparison to the other algorithms.
+
+sort2 uses: merged sort
+
+How do you know?: Equivalent time for all the cases with the same amount of lines.
+
+sort3 uses: selection sort
+
+How do you know?: Equivalent time for all the cases with the same amount of lines, but is slower than the sort2.

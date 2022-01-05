@@ -1,0 +1,25 @@
+<!DOCKTYPE html>
+
+<html lang = "en">
+    <head>
+        <script>
+
+            document.addEventListener("DOMContentLoaded", function () {
+                document.querySelector("#askName").addEventListener("submit", function () {
+                    let name = document.querySelector("#name").value;
+                    alert("Hello, " + name + "!");
+                });
+            });
+
+        </script>
+        <title>
+            hello, title
+        </title>
+    </head>
+    <body>
+        <form id = "askName" onsubmit = "return false;">
+            <input autocomplete = "off" autofocus id = "name" placeholder = "What's is your name?">
+            <input type = "submit" value = "Greet me">
+        </form>
+    </body>
+</html>
